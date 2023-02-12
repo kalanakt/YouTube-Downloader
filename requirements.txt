@@ -1,0 +1,5 @@
+pyrogram==1.4.15
+tgcrypto
+pyromod
+pymongo[srv]==3.12.3
+aiohttp

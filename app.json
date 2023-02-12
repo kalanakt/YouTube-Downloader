@@ -1,0 +1,51 @@
+{
+    "name": "Pyrogram Bot",
+    "description": "Telegram bot using pyrogram",
+    "keywords": [
+      "telegram",
+      "pyrogram",
+      "template",
+      "database",
+      "telegram bot",
+      "best",
+      "bot"
+    ],
+    "repository": "https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "BOT_TOKEN": {
+        "description": "Your bot token from @BotFather",
+        "value": ""
+      },
+      "DATABASE_URI": {
+         "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+         "required": true
+      },
+      "DATABASE_NAME": {
+         "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+         "required": false
+      }
+      
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
