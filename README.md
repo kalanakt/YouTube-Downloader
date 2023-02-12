@@ -19,7 +19,7 @@
 <p>This is <a href="https://thecodexo.com" target="_blank" rel="noopener noreferrer">Codexo</a> project for develop telegram bot using pyrogram</p>
 
 <h3>Introduction</h3>
-<p>This is complete pyrogram bot. host in <a href="https://dashboard.heroku.com/" target="_blank" rel="noopener noreferrer">heroku</a>. use <a href="https://docs.pyrogram.org" target="_blank" rel="noopener noreferrer">Pyrogram Documentation</a> for develop your bot.</p>
+<p>ChatGPT Telegram Bot is a conversational AI-powered bot that is designed to interact with users and answer their questions. This bot uses OpenAI's state-of-the-art language model, GPT-3, to generate human-like responses in real-time. With its advanced natural language processing capabilities, ChatGPT Telegram Bot can understand and respond to a wide range of questions and requests, making it an ideal companion for everyday conversations. Whether you're looking for information on a specific topic, seeking advice, or just want to chat with a virtual friend, ChatGPT Telegram Bot is there to help.</p>
 
 <h3>Ecosystem</h3>
 
