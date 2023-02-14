@@ -10,7 +10,7 @@ bot = Client(
     api_hash=Config.API_HASH,
     workers=50,
     plugins=dict(root="plugins")
-    )
+)
 
 bot.start()
 print("Bot Started ⚡")
