@@ -13,6 +13,6 @@ bot = Client(
     )
 
 bot.start()
-
+print("Bot Started ⚡")
 idle()
 bot.stop()

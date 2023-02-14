@@ -49,7 +49,7 @@ async def help(bot, cmd):
 	)
     
 @Client.on_message(filters.command("about") & filters.private)
-async def start(bot, cmd):	
+async def about(bot, cmd):	
 	await cmd.reply_text(
 		ABOUT_TXT, 
 		disable_web_page_preview=True,
