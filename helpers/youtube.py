@@ -1,5 +1,16 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
+def get_youtube_video_id(url):
+    """Extracts the video ID from a YouTube URL"""
+    video_id = None
+    if 'youtube.com' in url:
+        video_id = url.split('v=')[-1]
+        if '&' in video_id:
+            video_id = video_id.split('&')[0]
+    elif 'youtu.be' in url:
+        video_id = url.split('/')[-1]
+    return video_id
+
 def get_resolution_keyboard(video):
     resolutions = {}
     for stream in video.streams.filter(progressive=True):
@@ -28,3 +39,6 @@ def get_filetype_keyboard(video, resolution):
     keyboard = InlineKeyboardMarkup([buttons])
 
     return keyboard
+
+async def progress(current, total):
+    print(f"{current * 100 / total:.1f}%")
