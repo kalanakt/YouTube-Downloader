@@ -4,12 +4,12 @@
  This is a simple Telegram bot built with Pyrogram that allows users to download YouTube videos and playlists. It supports both video and audio downloads, and provides a variety of resolution and format options for video downloads.
 </p> 
 <p align="center">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kalanakt/Pyrogram-Telegram-Bot-Template?logo=files&logoColor=f72585&style=social">
-  <img alt="GitHub release (by tag)" src="https://img.shields.io/github/downloads/kalanakt/Pyrogram-Telegram-Bot-Template/v1.0.0/total?color=90dbf4&logo=arlo&style=social">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/kalanakt/Pyrogram-Telegram-Bot-Template?color=8eecf5&logo=anaconda&logoColor=06d6a0&style=social">
-  <img alt="GitHub" src="https://img.shields.io/github/license/kalanakt/Pyrogram-Telegram-Bot-Template?logo=adguard&logoColor=390099&style=social">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kalanakt/Pyrogram-Telegram-Bot-Template?color=90e0ef&logoColor=ff4d6d&style=social">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kalanakt/Pyrogram-Telegram-Bot-Template?logo=electron&logoColor=89fc00&style=social">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kalanakt/video-defuser?logo=files&logoColor=f72585&style=social">
+  <img alt="GitHub release (by tag)" src="https://img.shields.io/github/downloads/kalanakt/video-defuser/v1.0.0/total?color=90dbf4&logo=arlo&style=social">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/kalanakt/video-defuser?color=8eecf5&logo=anaconda&logoColor=06d6a0&style=social">
+  <img alt="GitHub" src="https://img.shields.io/github/license/kalanakt/video-defuser?logo=adguard&logoColor=390099&style=social">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kalanakt/video-defuser?color=90e0ef&logoColor=ff4d6d&style=social">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kalanakt/video-defuser?logo=electron&logoColor=89fc00&style=social">
 </p>
 <br><br>
 
