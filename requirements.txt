@@ -1,5 +1,6 @@
-pyrogram==1.4.15
+pyrogram
 pymongo[srv]==3.12.3
 aiohttp
 pydub
 pytube
+tgcrypto
