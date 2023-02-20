@@ -4,3 +4,4 @@ aiohttp
 pydub
 pytube
 tgcrypto
+ffmpeg
