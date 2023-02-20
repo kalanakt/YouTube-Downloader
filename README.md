@@ -1,8 +1,8 @@
-<p align="center"><a href="https://thecodexo.com" target="_blank" rel="noopener noreferrer"><img width="250" src="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/blob/main/pic/logo_transparent_1100x300.png" alt="Code xo logo"></a></p>
+<h1 align="center">Pyrogram YouTube Downloader Bot</h1>
 
-<!-- <p align='center'>
-  <img alt="GitHub Sparkline" src="https://stars.medv.io/kalanakt/Pyrogram-Telegram-Bot-Template.svg">
-</p> -->
+<p align='center'>
+ This is a simple Telegram bot built with Pyrogram that allows users to download YouTube videos and playlists. It supports both video and audio downloads, and provides a variety of resolution and format options for video downloads.
+</p> 
 <p align="center">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kalanakt/Pyrogram-Telegram-Bot-Template?logo=files&logoColor=f72585&style=social">
   <img alt="GitHub release (by tag)" src="https://img.shields.io/github/downloads/kalanakt/Pyrogram-Telegram-Bot-Template/v1.0.0/total?color=90dbf4&logo=arlo&style=social">
@@ -13,43 +13,42 @@
 </p>
 <br><br>
 
-<a href="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/archive/refs/tags/v1.0.0.zip"><img alt="Download Zip file" src="https://img.shields.io/github/downloads/kalanakt/Pyrogram-Telegram-Bot-Template/v1.0.0/total?color=caf0f8&label=Download%20As%20Zip%20v1.0.0&logo=Files&logoColor=caf0f8&style=for-the-badge"></a>
-
-<h3>This repo is for telegram bot using pyrogram libray</h3>
-<p>This is <a href="https://thecodexo.com" target="_blank" rel="noopener noreferrer">Codexo</a> project for develop telegram bot using pyrogram</p>
-
 <h3>Introduction</h3>
-<p>ChatGPT Telegram Bot is a conversational AI-powered bot that is designed to interact with users and answer their questions. This bot uses OpenAI's state-of-the-art language model, GPT-3, to generate human-like responses in real-time. With its advanced natural language processing capabilities, ChatGPT Telegram Bot can understand and respond to a wide range of questions and requests, making it an ideal companion for everyday conversations. Whether you're looking for information on a specific topic, seeking advice, or just want to chat with a virtual friend, ChatGPT Telegram Bot is there to help.</p>
+<p>To use the bot, simply start a chat with it on Telegram and enter a valid YouTube video or playlist URL. The bot will then provide a selection of download options to choose from.</p>
 
-<h3>Ecosystem</h3>
+<h3>Features</h3>
 
-| Version              | Status                | Description                                                                                                               |
-| -------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| v 1.0.0              | Stable                | Simple mode & command plugin & callback plugin & database & heroku development setup & bot message script                 |
-|           -          |           -           | -                                                                                                                         |
-|           -          |           -           | -                                                                                                                         |
-
-<h3>To do</h3>
-
- * [ ] deploy to vps setup
- * [ ] brodcast message to users
- * [ ] users counter 
+ * Download YouTube videos and playlists with ease
+ * Support for both video and audio downloads
+ * Customizable download options for video downloads
+ * Simple and intuitive user interface
  
-<h3>Documentation</h3>
+<h3>Deploy Locally</h3>
 
-<p>check out <a href="https://docs.pyrogram.org" target="_blank" rel="noopener noreferrer">pyrogram doc</a></p>
+__Clone the repository__
 
-<h3>Questions</h3>
+```
+git clone https://github.com/kalanakt/video-defuser.git
+```
+or 
 
-<p>For questions and support please use <a href="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/discussions" target="_blank" rel="noopener noreferrer">Discussions</a>. The issue list of this repo is <strong>exclusively</strong> for bug reports and feature requests.</p>
+`fork | download repository`
 
-<h3>Issues</h3>
+__Install the required packages:__
 
-<p>Please make sure to read the <a href="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/discussions/categories/issue-reporting-checklist" target="_blank" rel="noopener noreferrer">Issue Reporting Checklist</a>. before opening an <a href="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/issues" target="_blank" rel="noopener noreferrer">issue</a>. Issues not conforming to the guidelines may be closed immediately.</p>
+```
+pip install -r requirements.txt
+```
 
-<h3>Changelog</h3>
+__Create a new Telegram bot and obtain your bot token.__
+__Replace the api_id, api_hash, and bot_token values in config.py with your own values.__
+__Run the bot:__
 
-<p>Detailed changes for each release are documented in the <a href="https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template/commits/main" target="_blank" rel="noopener noreferrer">main commits</a></p> 
+```
+python main.py
+```
+
+`you can also deploy this bot to other host sites heroku, railway, render, keyob`
 
 <h3>Stay In Touch</h3>
 
@@ -64,4 +63,4 @@
 [MIT](https://opensource.org/licenses/MIT)
 
 <br>
-<em align='center'>Copyright (c) 2022-present <strong>code xo</strong></em>
+<em align='center'>Copyright (c) 2022-present <strong>kalanakt</strong></em>
