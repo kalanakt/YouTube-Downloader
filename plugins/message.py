@@ -6,8 +6,6 @@ import asyncio
 import sys
 import os
 import re
-import shutil
-import requests
 from pytube import YouTube, Playlist
 
 from helpers.database import u_video
