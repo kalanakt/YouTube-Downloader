@@ -57,7 +57,7 @@ async def select_resolution(client, callback_query):
     keyboard = [buttons, t_buttons, d_buttons]
     markup = InlineKeyboardMarkup(keyboard)
     # do something with the callback_data
-    return await callback_query.message.edit_message_reply_markup(reply_markup=markup)
+    return await callback_query.message.edit_reply_markup(reply_markup=markup)
     # youtube = YouTube(f'https://www.youtube.com/watch?v={video_id}')
 
 
@@ -90,7 +90,7 @@ async def select_file_type(client, callback_query):
     keyboard = [buttons, t_buttons, d_buttons]
     markup = InlineKeyboardMarkup(keyboard)
     # do something with the callback_data
-    return await callback_query.message.edit_message_reply_markup(reply_markup=markup)
+    return await callback_query.message.edit_reply_markup(reply_markup=markup)
 
 
 @Client.on_callback_query(filters.regex(r'^download_'))
@@ -265,7 +265,7 @@ async def pl_select_resolution(client, callback_query):
     keyboard = [buttons, t_buttons, d_buttons]
     markup = InlineKeyboardMarkup(keyboard)
     # do something with the callback_data
-    return await callback_query.message.edit_message_reply_markup(reply_markup=markup)
+    return await callback_query.message.edit_reply_markup(reply_markup=markup)
 
 
 @Client.on_callback_query(filters.regex(r'^pl_type_'))
@@ -296,7 +296,7 @@ async def pl_select_file_type(client, callback_query):
     keyboard = [buttons, t_buttons, d_buttons]
     markup = InlineKeyboardMarkup(keyboard)
     # do something with the callback_data
-    return await callback_query.message.edit_message_reply_markup(reply_markup=markup)
+    return await callback_query.message.edit_reply_markup(reply_markup=markup)
 
 
 @Client.on_callback_query(filters.regex(r'^pl_download_'))
